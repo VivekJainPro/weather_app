@@ -15,7 +15,7 @@ class AddInfo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 200,
+      height: 150,
       // width: 130,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -26,13 +26,13 @@ class AddInfo extends StatelessWidget {
           ),
           Text(
             infoOf,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 20,
             ),
           ),
           Text(
             data,
-            style: TextStyle(
+            style: const TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 25,
             ),
